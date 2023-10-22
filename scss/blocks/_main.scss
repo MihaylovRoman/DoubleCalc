@@ -1,0 +1,73 @@
+//
+//Front-side
+//
+.main__front{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.front__button{
+    color: $BackRoad;
+    background-color: $BackBtn;
+    border-radius: 15px;
+    width: 140px;
+    height: 30px;
+    text-align: start;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+.card__text{
+    color: $BackRoad;
+}
+
+input{
+    padding: 5px;
+    width: 140px;
+    height: 30px;
+    text-align: start;  
+    padding-left: 10px;
+    border-radius: 15px;
+    
+    
+}
+.main__front input{
+    background-color: $BackRoad;
+    color: $BackCube;
+    &::placeholder{
+        color: $BackBtn;
+    }
+}
+
+//
+//Back-side
+//
+.main__back{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    row-gap: 20px;
+}
+.main__back input{
+    background-color: $BackCube;
+    color: $BackRoad;
+    &::placeholder{
+        color: $BackRoad;
+    }
+    
+}
+.back__text{
+    color: $BackCube;
+}
+.back__button{
+    color: $BackRoad;
+    background-color: $BackBtn;
+    border-radius: 15px;
+    width: 140px;
+    height: 30px;
+    text-align: start;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}

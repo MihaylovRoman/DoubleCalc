@@ -1,0 +1,36 @@
+.card{
+    width: 500px;
+    height: 300px;
+    border-radius: 35px;
+    position: relative;
+    perspective: 1000px;
+
+    
+}
+.front, .back{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 35px;
+    padding: 0px 10px 0px 25px;
+    left: 0;
+    top: 0;
+    transition: 1s;
+    backface-visibility: hidden;
+}
+.front{
+    background-color: $BackCube;
+}
+.back{
+    background-color: $BackRoad;
+    transform: rotateY(180deg); 
+}
+
+//Class for ROTATE
+.rotateBack{
+    transform: rotateY(360deg);
+}
+.rotateFront{
+    transform: rotateY(180deg);
+}

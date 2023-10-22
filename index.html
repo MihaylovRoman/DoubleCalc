@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Calculator</title>
+    
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <div class="front">
+                <header class="header__front">
+                    <span>Калькулятор КУБА</span>
+                    <a href="#!">
+                        <img src="img/reverse.png" class="settings">
+                    </a>
+                </header>
+
+                <main class="main__front">
+                    <span class="card__text">Длина ребра (м)</span>
+                    <input type="number" placeholder="Введите длину" class="front__in-S">
+                    <button class="front__button">Рассчитать</button>
+                    <button class="front__button clear">Очистить</button>
+                </main>
+
+                <section class="front__answer">
+                    
+                        <span class="ans__one">Площадь грани: </span>
+                        <span class="ans__two">Площадь полной поверхности: </span>
+                        <span class="ans__three">Объем: </span>
+                    
+
+                </section>
+            </div>
+
+            <div class="back">
+                <header class="header__back">
+                    <span>Калькулятор ПОЕЗДКИ</span>
+                    <a href="#!">
+                        <img src="img/reverse.png" class="settings">
+                    </a>
+                </header>
+
+                <main class="main__back">
+                    <span class="back__text">Расстояние</span>
+                    <input type="number" placeholder="Введите расст.." class="back__input">
+
+                    <span class="back__text">Расход бензина(на 100км)</span>
+                    <input type="number" placeholder="Введите кол-во" class="back__input">
+
+                    <span class="back__text">Цена за литр</span>
+                    <input type="number" placeholder="Введите цену" class="back__input">
+
+                    <button class="back__button">Рассчитать</button>
+                    <button class="back__button back-clear">Очистить</button>
+                </main>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="./js/sctipt.js"></script>
+</body>
+
+</html>

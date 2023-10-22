@@ -1,0 +1,25 @@
+.header__front{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__front span{
+    font-size: 25px;
+    color: $BackRoad;
+}
+
+
+
+.header__back{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__back span{
+    font-size: 25px;
+    color: $BackCube;
+}
